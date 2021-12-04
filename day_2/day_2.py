@@ -10,8 +10,6 @@ def read_input(path):
             for value in [line.split() for line in file.readlines()]
         ]
 
-    return result
-
 
 def solve_silver(puzzle):
     depth = 0
